@@ -14,7 +14,7 @@ const Note = sequelize.define("note", {
     allowNull: false,
   },
   description: {
-    type: Sequelize.STRING,
+    type: Sequelize.TEXT("long"),
     allowNull: false,
   },
 });
